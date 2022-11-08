@@ -1,0 +1,151 @@
+body, html {
+    margin: 0px auto;
+   padding: 0px;
+   font-size: 22px;
+   background-color: rgb(0, 0, 0);
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    
+    color: seashell;
+    
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* -- header -- */
+
+.header-container {
+
+    position: fixed;
+    background-color: aqua;
+    overflow: visible;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+}
+
+.header-logo {
+    margin: 10px;
+    height: 50px;
+}
+
+.header-container ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+li {
+    overflow: visible;
+    position: static;
+    text-decoration: underline;
+    margin: 0px 10px;
+    
+}
+
+/* -- mission -- */
+
+#mission {
+    background-image: url("./img/img-mission-background.jpeg");
+    height: 700px;
+    max-width: 1200px;
+    margin: 69px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mission-headers {
+    min-width: 1200px;
+    background-color: black;
+}
+
+.mission-headers h2, h4 {
+}
+
+/* -- featured-tea -- */
+
+#featured-tea {
+    display: flex;
+    background-color: rgb(19, 128, 27);
+    opacity: 1;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.featured-header {
+    border-bottom: 1px solid red;
+}
+
+.tea {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.featured-tea {
+   
+}
+
+.tea-img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* -- locations -- */
+
+#locations {
+    background-image: url(./img/img-locations-background.jpeg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.title {
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 1px solid red;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.loc {
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+
+}
+
+/* -- contact -- */
+.contact{
+    display: flex;
+    justify-content: center;
+
+}
+/* -- footer -- */
+
+.footer {
+    display: flex;
+}
+
+.footer-text{
+align-items: flex-start;
+padding: 0px;
+margin-left: 20px;
+background-color: aquamarine;
+}
