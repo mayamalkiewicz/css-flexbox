@@ -19,7 +19,6 @@ body, html {
 .header-container {
 
     position: fixed;
-    background-color: aqua;
     overflow: visible;
     width: 100%;
     z-index: 1;
@@ -28,6 +27,7 @@ body, html {
     min-height: 69px;
     border-bottom: 1px solid seashell;
     top: 0px;
+    background-color: black;
 }
 
 .header-logo {
@@ -68,35 +68,44 @@ li {
 }
 
 .mission-headers h2, h4 {
+    margin: 12px auto 12px;
 }
 
 /* -- featured-tea -- */
 
 #featured-tea {
     display: flex;
-    background-color: rgb(19, 128, 27);
     opacity: 1;
     flex-direction: column;
     max-width: 1000px;
     margin: 0px auto;
+    padding: 80px 0px;
+    
 }
 
 .featured-header {
-    border-bottom: 1px solid red;
+}
+
+.featured-header h2, h4 {
+    margin: 12px auto 12px;
 }
 
 .tea {
     display: inline-flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.featured-tea {
-   
+.featured-tea h4{
+   margin: 0px;
+
+
 }
 
 .tea-img {
     width: 300px;
     height: 200px;
+    margin: 10px;
 }
 
 
@@ -114,7 +123,6 @@ li {
 .title {
     justify-content: center;
     align-items: flex-end;
-    border-bottom: 1px solid red;
 }
 
 .locations{
@@ -147,5 +155,4 @@ li {
 align-items: flex-start;
 padding: 0px;
 margin-left: 20px;
-background-color: aquamarine;
 }
